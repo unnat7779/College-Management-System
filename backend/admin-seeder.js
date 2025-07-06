@@ -14,9 +14,9 @@ const seedData = async () => {
 
     const adminDetail = {
       employeeId: employeeId,
-      firstName: "Sundar",
-      middleName: "R",
-      lastName: "Pichai",
+      firstName: "Peeyush",
+      middleName: "",
+      lastName: "Gupta",
       email: "admin@gmail.com",
       phone: "1234567890",
       profile: "Faculty_Profile_123456.jpg",
@@ -26,10 +26,10 @@ const seedData = async () => {
       pincode: "123456",
       country: "India",
       gender: "male",
-      dob: new Date("1990-01-01"),
+      dob: new Date("1999-01-01"),
       designation: "System Administrator",
       joiningDate: new Date(),
-      salary: 50000,
+      salary: 500000,
       status: "active",
       isSuperAdmin: true,
       emergencyContact: {
