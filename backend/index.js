@@ -13,12 +13,10 @@ const cors = require("cors")
 const attendanceRoutes = require("./routes/attendance.route")
 
 // CORS configuration
-app.use(
-  cors({
-    origin: process.env.FRONTEND_API_LINK || "*",
-    credentials: true,
-  }),
-)
+app.use(cors({
+  origin: "*",
+}));
+
 
 // Middleware
 app.use(express.json({ limit: "10mb" }))
